@@ -1,11 +1,11 @@
 /* eslint-disable */
-const port = 3000;
+const port = 8080;
 const path = require('path');
 const express = require('express');
 const app = express();
 const axios = require('axios');
 const cors = require('cors');
-const config = require('./config/config.js');
+//const config = require('./config/config.js');
 
 /**********************change this url for development or production (aws) server**********************************/
 const url = 'http://localhost:8080';
